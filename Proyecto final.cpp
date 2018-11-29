@@ -416,11 +416,17 @@ void insertarpeliculas(){
 									cin>>dias; //lectura de los dias ingresados
 									if(dias > 20) //condicion
 									{
-										Vmulta=dias*1000; //operacion
+										Vmulta= dias * 1000; //operacion
 										cout<<"\nSe debe aplicar una multa de: "<<Vmulta<<" pesos"; //mensaje de salida
 									}else
 									{
-										cout<<"\nAun esta a tiempo de entrega"; //mensaje de salida
+										if(dias == 20)
+										{
+											cout<<"\nAun esta a tiempo de entrega"; //mensaje de salida
+										}else
+										{
+											cout<<"\nAun esta a tiempo de entrega"; //mensaje de salida
+										}
 									}
 									encontrado=true; //variable logica
 								}
