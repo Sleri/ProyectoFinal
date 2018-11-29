@@ -1,10 +1,10 @@
 #include <cstdlib> //libreria para el uso del atoi
-#include <iostream>
-#include <fstream>
-#include <string.h>
-#include <stdio.h> //libreria para el get y fflush
-#include <stdlib.h> //libreria para cambiar la interfaz
-#include <conio.h>
+#include <iostream>//libreria  para operaciones de entrada y salida
+#include <fstream> //libreria para manejo de base de datos (texto.txt)
+#include <string.h> //Libreria para el manejo de cadenas
+#include <stdio.h> //libreria para el gets y fflush
+#include <stdlib.h> //libreria para cambiar el color de la interfaz
+#include <conio.h> //libreria para getch
 
 /*
 integrantes:
@@ -1105,7 +1105,8 @@ int main(){
     		break;
 			
 			case 5:
-				cout<<"Saliendo...\n";
+				cout<<"\nSaliendo...\n";
+				getch();
 			break;
 			
 			default:
